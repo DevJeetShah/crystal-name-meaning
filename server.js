@@ -6,83 +6,83 @@ const PORT = 8000
  app.use(cors())
 
 const crystals = {
-    'Sodalite':{
+    'sodalite':{
         'crystalname': 'Sodalite',
         'crystalbenefits':'Communication, self expression, truth',
     },
-    'Clear Quartz':{
+    'clear quartz':{
         'crystalname': 'Clear Quartz',
         'crystalbenefits':'Awareness, Amplifying energy, clarity',
     },
-    'Rose Quartz':{
+    'rose quartz':{
         'crystalname': 'Rose Quartz',
         'crystalbenefits':'Unconditional love, emotional healing, compassion',
     },
-    'Aventurine':{
+    'aventurine':{
         'crystalname': 'Aventurine',
         'crystalbenefits':'Prosperity, well being, good luck',
     },
-    'Red Jasper':{
+    'red jasper':{
         'crystalname': 'Red Jasper',
         'crystalbenefits':'Strength, honesty, stability',
     },
-    'Snowflake Obsidian':{
+    'snowflake obsidian':{
         'crystalname': 'Snowflake Obsidian',
         'crystalbenefits':'Spiritual protection, transmutation, acceptance',
     },
-    'Citrine':{
+    'citrine':{
         'crystalname': 'Citrine',
         'crystalbenefits':'Brightness, positive energy, clearing',
     },
-    'Amethyst':{
+    'amethyst':{
         'crystalname': 'Amethyst',
         'crystalbenefits':'Intuition, balance, higher wisdom',
     },
-    'Amazonite':{
+    'amazonite':{
         'crystalname': 'Amazonite',
         'crystalbenefits':'Confidence, self love, creative expression',
     },
-    'Tigers Eye':{
+    'tigers eye':{
         'crystalname': 'Tigers Eye',
         'crystalbenefits':'Will power, warrior spirit, self-motivation',
     },
-    'Black Tourmaline':{
+    'black tourmaline':{
         'crystalname': 'Black Tourmaline',
         'crystalbenefits':'Protection, banishing, security',
     },
-    'Carnelian':{
+    'carnelian':{
         'crystalname': 'Carnelian',
         'crystalbenefits':'Passion, creativity',
     },
-    'Hematite':{
+    'hematite':{
         'crystalname': 'Hematite',
         'crystalbenefits':'Courage, inner strength, grounding',
     },
-    'Malachite':{
+    'malachite':{
         'crystalname': 'Malachite',
         'crystalbenefits':'Wealth, beauty, individuality',
     },
-    'Lapis Lazuli':{
+    'lapis lazuli':{
         'crystalname': 'Lapis Lazuli',
         'crystalbenefits':'Psychic vision, celestial energy, Nobility',
     },
-    'Labradorite':{
+    'labradorite':{
         'crystalname': 'Labradorite',
         'crystalbenefits':'Awakening joy, interdimensional travel, innovation',
     },
-    'Ruby':{
+    'ruby':{
         'crystalname': 'Ruby',
         'crystalbenefits':'Passion, love, strength',
     },
-    'Aquamarine':{
+    'aquamarine':{
         'crystalname': 'Aquamarine',
         'crystalbenefits':'Courage, creativity',
     },
-    'Moonstone':{
+    'moonstone':{
         'crystalname': 'Moonstone',
         'crystalbenefits':'Intuition, sensuality, safe travel',
     },
-    'Bloodstone':{
+    'bloodstone':{
         'crystalname': 'Bloodstone',
         'crystalbenefits':'Determination, confidence',
     },
