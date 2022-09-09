@@ -89,7 +89,7 @@ const crystals = {
     'invalid crystal':{
         'crystalname': 'This crystal does not exist in database',
         'crystalbenefits':'Kindly enter a valid crystal.'
-    },
+    }
 
 }
 
