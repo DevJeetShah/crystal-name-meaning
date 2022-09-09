@@ -1,7 +1,7 @@
 document.querySelector('button').addEventListener('click', apiRequest)
 
 async function apiRequest(){
-    const rapperName = document.querySelector('input').value
+    const crystalName = document.querySelector('input').value
     try{
         const response = await fetch(`https://crystal-name-meaning.herokuapp.com/api/${crystalName}`)
         const data = await response.json()
